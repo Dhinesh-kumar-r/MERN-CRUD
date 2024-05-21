@@ -1,0 +1,53 @@
+.add-data input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border: 1px solid #a3a4a6;
+}
+input[type="date"],input[type="number"],
+input[type="text"],input[type="email"]{
+    width: 210px;
+}
+input::placeholder{
+    color: #bcbcbc;
+    font-weight: bold;
+}
+.submit-button{
+    width: 250px !important;
+    background-color: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+.cancel-button{
+    width: 250px !important;
+    background-color: #c55d22;
+    color: white;
+    cursor: pointer;
+}
+form{
+    margin-top: 20px;
+}
+.add-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 70px;
+    
+
+}
+.add-head{
+    font-weight: bold;
+}
+.add-data{
+    background-color:#ffffff ;
+    padding: 50px;
+    border-radius: 10px;
+}
+.close:hover,.close:focus{
+    color: white;
+    cursor: pointer;
+    
+}
